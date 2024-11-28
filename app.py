@@ -179,8 +179,7 @@ def make_guess():
 if 'goal' not in st.session_state:
     random_index = random.randint(0,len(countries)-1)
     st.session_state.goal = countries[random_index]
-    print(st.session_state.goal)
-
+    
 # initialze the other variables
     
 if 'score' not in st.session_state:
